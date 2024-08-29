@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Ze Bamlai",
+  "version": "1.0",
+  "description": "Check stock for a specified branch",
+  "permissions": ["https://ksp.co.il/"],
+  "content_scripts": [
+    {
+      "js": ["maqatim.js"],
+      "matches": ["https://ksp.co.il/web/cat/*"]
+    }
+  ]
+}
